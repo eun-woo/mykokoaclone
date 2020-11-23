@@ -1,0 +1,65 @@
+.secondpage {
+    width:35%;
+    height:80%;
+    border-radius:10%;
+    background-color:white;
+    margin:62.5px;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.music_header{
+    margin: 20px 0px;
+    display:flex;
+  }
+
+  .music_header i:first-child {
+    position: absolute;
+    left:20px;
+  }
+  .music_header i:last-child {
+    position: absolute;
+    right:20px;
+  }
+  .music_picture {
+      width:25vw;
+      height:40vh;
+      margin-top: 30%;
+      margin-bottom: 10%;
+      border-radius: 20px;
+      box-shadow: 0px 0px 10px black
+  inset, 0px 0px 10px black;
+  }
+  .secondpage h1 {
+      font-family: 'Poppins', sans-serif;
+    font-size: 4.5vh;
+    font-weight: bold;
+  }
+  .secondpage p{
+    padding: 4.5vh 0;
+    color: rgba(0, 0, 0, 0.416);
+    text-align: center;
+  }
+  .range_bar {
+      display:flex;
+      flex-direction:column;
+      align-items: center;
+      width: 25vw;
+  }
+  .time{
+    display:flex;
+    justify-content: space-between;
+
+  }
+  .play_status_button form {
+      margin: 8% 5%;
+      display: flex;
+      justify-content: center; 
+  }
+  .secondpage form button {
+    padding:13% 7%;
+    background-color: rgba(255, 255, 255, 1);
+    border:none;
+    outline:none;
+  }
